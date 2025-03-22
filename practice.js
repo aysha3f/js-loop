@@ -113,3 +113,7 @@
 // for(let i = 1; i <=10; i++){
 //     console.log(`${num} x ${i} = ${num * i}`)
 // }
+
+// for(let i = 81; i >= 65; i--){
+//     console.log(i);
+// }
