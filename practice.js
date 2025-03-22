@@ -76,9 +76,16 @@
 //     console.log(`${i}. I will invest at least 6 hrs every single day for next 60 days!`);
 // }
 
-for(let num = 61; num <= 100; num++){
-    if( num %2 === 0){
-        continue;
-    }
-    console.log(num);
-}
+// for(let num = 61; num <= 100; num++){
+//     if( num %2 === 0){
+//         continue;
+//     }
+//     console.log(num);
+// }
+
+// for(let num = 78; num <= 98; num++){
+//     if( num %2 !== 0){
+//         continue;
+//     }
+//     console.log(num);
+// }
