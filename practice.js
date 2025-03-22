@@ -36,11 +36,38 @@
 //     }
 // }
 
-let i = 0;
-while (i <= 40){
-    i++;
-    if(i%2 === 1){
-        continue
+// let i = 0;
+// while (i <= 40){
+//     i++;
+//     if(i%2 === 1){
+//         continue
+//     }
+//     console.log(i);
+// }
+
+
+// let i = 55;
+// while (i <= 85 ){
+//     i++;
+//     if(i%5 === 0){
+//         continue
+//     }
+//     console.log(i);
+// }
+
+// let i = 55;
+// while (i <= 85) {
+//     if (i % 5 === 0) {
+//         i++;  // Skip numbers divisible by 5
+//         continue;
+//     }
+//     console.log(i);  // Print odd numbers not divisible by 5
+//     i++;  // Increment to move to the next number
+// }
+
+for (let num = 55; num <= 85; num++) {
+    if (num % 2 === 0 || num % 5 === 0) {
+        continue;  // Skip even numbers and numbers divisible by 5
     }
-    console.log(i);
+    console.log(num);  // Print odd numbers that are not divisible by 5
 }
