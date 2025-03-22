@@ -16,7 +16,7 @@
 //     console.log('stopping the loop')
 //     break;
 //    }
-    
+
 // }
 // num++;
 
@@ -44,7 +44,6 @@
 //     }
 //     console.log(i);
 // }
-
 
 // let i = 55;
 // while (i <= 85 ){
@@ -99,7 +98,6 @@
 // }
 // console.log('Total:', sum);
 
-
 // let sum = 0;
 // for (let i = 206; i <= 311; i++) {
 //    if (i % 2 == 0) {
@@ -117,3 +115,65 @@
 // for(let i = 81; i >= 65; i--){
 //     console.log(i);
 // }
+
+// while loop
+// let i = 1;
+// while (i <= 60)
+// {
+//   console.log(`${i}.I will invest at least 6 hrs every single day for next 60 days! `);
+//   i++;
+// }
+
+// let num = 61;
+// while(num <= 100){
+//   num++;
+  
+//   if(num %2!== 0){
+//     console.log(num);
+//   }
+// }
+// let num = 78;
+// while(num <= 98){
+//   num++;
+  
+//   if(num %2 == 0){
+//     console.log(num);
+//   }
+// }
+//  let sum = 0;
+// let i = 206;
+//  while(i <= 311){
+//   i++;
+  
+//   if(i %2 == 0){
+//     sum = sum + i;
+//          console.log(i);
+//      }
+//  }
+//  console.log('total', sum);
+
+//  let sum = 0;
+// let i = 81;
+//  while(i <= 131){
+//   i++;
+  
+//   if(i %2 !== 0){
+//     sum = sum + i;
+//          console.log(i);
+//      }
+//  }
+//  console.log('total', sum);
+
+// let num = 5;  // The number for which we want the multiplication table
+// let i = 1;     // Initialize i to 1, which is where the multiplication starts
+// while (i <= 10) {  // Continue while i is less than or equal to 10
+//     console.log(`${num} x ${i} = ${num *i}` );  // Print the multiplication result
+//     i++;  // Increase i by 1 after each loop
+// }
+let num = 21;  // Start the countdown from 21
+
+while (num >= 15) {  // Continue the countdown while num is greater than or equal to 15
+    console.log(num);  // Print the current number
+    num--;  // Decrease num by 1 after each iteration
+}
+
