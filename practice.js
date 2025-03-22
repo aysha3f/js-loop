@@ -72,6 +72,13 @@
 //     console.log(num);  // Print odd numbers that are not divisible by 5
 // }
 
-for(let i = 1; i <=60; i++){
-    console.log(`${i}. I will invest at least 6 hrs every single day for next 60 days!`);
+// for(let i = 1; i <=60; i++){
+//     console.log(`${i}. I will invest at least 6 hrs every single day for next 60 days!`);
+// }
+
+for(let num = 61; num <= 100; num++){
+    if( num %2 === 0){
+        continue;
+    }
+    console.log(num);
 }
