@@ -65,9 +65,13 @@
 //     i++;  // Increment to move to the next number
 // }
 
-for (let num = 55; num <= 85; num++) {
-    if (num % 2 === 0 || num % 5 === 0) {
-        continue;  // Skip even numbers and numbers divisible by 5
-    }
-    console.log(num);  // Print odd numbers that are not divisible by 5
+// for (let num = 55; num <= 85; num++) {
+//     if (num % 2 === 0 || num % 5 === 0) {
+//         continue;  // Skip even numbers and numbers divisible by 5
+//     }
+//     console.log(num);  // Print odd numbers that are not divisible by 5
+// }
+
+for(let i = 1; i <=60; i++){
+    console.log(`${i}. I will invest at least 6 hrs every single day for next 60 days!`);
 }
