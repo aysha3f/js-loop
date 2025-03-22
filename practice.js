@@ -89,3 +89,22 @@
 //     }
 //     console.log(num);
 // }
+
+// let sum = 0;
+// for (let i = 81; i <= 131; i++) {
+//    if (i % 2 !== 0) {
+//       sum = sum + i;
+//       console.log(i); // Print only odd numbers
+//    }
+// }
+// console.log('Total:', sum);
+
+
+let sum = 0;
+for (let i = 206; i <= 311; i++) {
+   if (i % 2 == 0) {
+      sum = sum + i;
+      console.log(i); // Print only odd numbers
+   }
+}
+console.log('Total:', sum);
