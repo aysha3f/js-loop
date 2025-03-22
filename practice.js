@@ -100,11 +100,16 @@
 // console.log('Total:', sum);
 
 
-let sum = 0;
-for (let i = 206; i <= 311; i++) {
-   if (i % 2 == 0) {
-      sum = sum + i;
-      console.log(i); // Print only odd numbers
-   }
-}
-console.log('Total:', sum);
+// let sum = 0;
+// for (let i = 206; i <= 311; i++) {
+//    if (i % 2 == 0) {
+//       sum = sum + i;
+//       console.log(i); // Print only odd numbers
+//    }
+// }
+// console.log('Total:', sum);
+
+// let num = 9;
+// for(let i = 1; i <=10; i++){
+//     console.log(`${num} x ${i} = ${num * i}`)
+// }
