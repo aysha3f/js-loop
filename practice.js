@@ -28,10 +28,19 @@
 //     }
 // }
 
-for(let i = 1; i <=100; i++){
-    console.log(i);
-    if(i === 1 || i=== 2|| i === 4 || i === 9 ){
-        console.log('stop the loooooooooooop')
-        break;
+// for(let i = 1; i <=100; i++){
+//     console.log(i);
+//     if(i === 1 || i=== 2|| i === 4 || i === 9 ){
+//         console.log('stop the loooooooooooop')
+//         break;
+//     }
+// }
+
+let i = 0;
+while (i <= 40){
+    i++;
+    if(i%2 === 1){
+        continue
     }
+    console.log(i);
 }
