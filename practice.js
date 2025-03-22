@@ -5,3 +5,17 @@
 //         break
 //     }
 // }
+
+// let num = 1;
+// let sum = 0;
+// while( sum < 100){
+//     console.log(num);
+//     sum =  sum + num ;
+//     console.log('sum', sum);
+//    if( sum >= 100){
+//     console.log('stopping the loop')
+//     break;
+//    }
+    
+// }
+// num++;
